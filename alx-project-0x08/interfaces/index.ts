@@ -12,4 +12,5 @@ export interface GeneratedImageProps {
   action: (imagePath: string) => void;
 }
 
+
 export type ImageProps = Pick<GeneratedImageProps, "imageUrl" | "prompt">;
